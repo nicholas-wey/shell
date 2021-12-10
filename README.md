@@ -16,14 +16,6 @@ follows:
 
 ---------------------------------------------------------------------------------------------------
 
-Valgrind:
-
-I ran the valgrind tool to check for memory safety errors and leaks using the "-m" flag when
-running the testing script, "cs0330_shell_2_test -s 33noprompt -m" and I did not encounter any
-memory leak issues.
-
----------------------------------------------------------------------------------------------------
-
 Explanation of Makefile:
 
 I based the Makefile mainly off the Makefile we made in lab06. CFLAGS and PROMPT were provided, as
